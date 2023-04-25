@@ -3,3 +3,54 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-size: 62.5%;
+}
+
+/* Header section */
+header {
+  width: 100%;
+  height: 4rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+header nav .nav-right-section {
+  width: 16rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+nav .nav-right-section a {
+  margin-right: 2rem;
+  color: #000;
+  text-decoration: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+nav .nav-right-section a:hover {
+  text-decoration: underline;
+}
+
+nav .nav-right-section .menu-icon {
+  background-image: url("../assets/icon-grid.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+nav .nav-right-section img {
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
